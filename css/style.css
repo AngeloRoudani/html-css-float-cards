@@ -44,7 +44,7 @@ img {
 }
 
 img::after {
-    content:''
+    content:'';
     clear: both;
     display: table;
 }
