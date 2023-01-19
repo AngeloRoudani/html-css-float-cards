@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif; ;
+}
+
+.container {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+p {
+    text-align: auto;
+}
+
+h1 {
+    color: rgb(250, 3, 155);
+    margin: 30px 0px;
+}
+
+.colonna {
+    width: calc(100% / 3);
+    margin-top: 30px;
+    float: left;
+}
+
+img {
+    height: 70px;
+    float: left;
+    margin-right: 15px;
+}
+
+.membro {
+    background-color: black;
+    height: 70px;
+    margin-top: 30px;
+    box-shadow: 10px 10px 5px #dedede;
+}
+
+.membro::after {
+    content: '';
+    clear: both;
+}
+
+.ruolo, h4 {
+    display: block;
+    color: white;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.email {
+    color: rgb(39, 223, 255);
+    text-align: left;
+    display: block;
+    padding-top: 4px;
+}
+
+.ruolo, .email {
+    font-size: 12px;
+
+}
