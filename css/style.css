@@ -28,6 +28,7 @@ h1 {
     width: calc(100% / 3);
     margin-top: 30px;
     float: left;
+    padding: 0px 15px;
 }
 
 img {
@@ -64,5 +65,4 @@ img {
 
 .ruolo, .email {
     font-size: 12px;
-
 }
