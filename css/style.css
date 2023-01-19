@@ -31,10 +31,22 @@ h1 {
     padding: 0px 15px;
 }
 
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
 img {
     height: 70px;
     float: left;
     margin-right: 15px;
+}
+
+img::after {
+    content:''
+    clear: both;
+    display: table;
 }
 
 .membro {
@@ -44,10 +56,6 @@ img {
     box-shadow: 10px 10px 5px #dedede;
 }
 
-.membro::after {
-    content: '';
-    clear: both;
-}
 
 .ruolo, h4 {
     display: block;
